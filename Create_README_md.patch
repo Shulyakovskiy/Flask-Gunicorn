@@ -1,0 +1,9 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(revision cdb330f5a5940bcce96664205ebb50a2a3d045cc)
++++ README.md	(revision cdb330f5a5940bcce96664205ebb50a2a3d045cc)
+@@ -0,0 +1,1 @@
++# flask_docker
