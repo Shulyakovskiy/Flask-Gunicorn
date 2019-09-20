@@ -1,0 +1,2 @@
+DOCKER_RUN
+docker run --name flask_gunicorn --restart always -p 80:8000 -v /home/sea/Public/python_dev_app/flask_docker/app:/app -d flask-gunicorn:latest
