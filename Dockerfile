@@ -4,7 +4,7 @@ FROM python:3.7
 WORKDIR /app
 
 # copy current directory into the container
-ADD . /app
+ADD app /app
 
 # install requirements
 RUN pip3 install pipenv
