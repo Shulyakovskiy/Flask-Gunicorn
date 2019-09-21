@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  api:
+    image: lyncsystem/flask-gunicorn:latest
+    container_name: flask_gunicorn
+    restart: always
+    volumes:
+      - /home/sea/Public/python_dev_app/flask_docker/app:/app
+    ports:
+      - 80:8000
