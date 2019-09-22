@@ -7,8 +7,7 @@ WORKDIR /app
 ADD app /app
 
 # install requirements
-RUN pip3 install pipenv
-RUN set -ex && pipenv install --deploy --system
+RUN pip3 install pipenv && set -ex && pipenv install --deploy --system
 
 VOLUME /app
 
